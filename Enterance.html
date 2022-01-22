@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Form</title>
+</head>
+
+<body>
+    <h1>Detailes Form</h1>
+    <form action="/TargetPage.html" method="get">
+
+        <div>
+            <label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="FirstName">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="text" name="LastName" id="LastName" placeholder="LastName">
+            </label>
+        </div>
+        <div>
+            <label>
+                Date of Birth
+                <input type="date" name="DOB" id="DOB">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="text" name="Adress" id="Adress" placeholder="Adress">
+            </label>
+        </div>
+        <div>
+            <label>
+                Choose Your City
+                <select name="City" id="City">
+                    <option value="TelAviv">Tel Aviv</option>
+                    <option value="BatYam">Bat Yam</option>
+                    <option value="Lod">Lod</option>
+                    <option value="Haifa">Haifa</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                Male
+                <input type="radio" name="Gender" id="Male">
+
+            </label>
+            <label>
+                Female
+                <input type="radio" name="Gender" id="Female">
+            </label>
+        </div>
+        <div>
+            <label>
+                Kosher Food?
+                <input type="checkbox" name="KosherFood" id="KosherFood">
+            </label>
+        </div>
+        <div><button type="submit">Send</button></div>
+    </form>
+
+</body>
+
+</html>
